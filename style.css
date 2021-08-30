@@ -1,0 +1,24 @@
+body {
+	font-family: "Raleway", "Sans serif";
+}
+header {
+    width: 98%;
+    max-width: 1440px;
+    margin: auto;
+}
+.logo {
+	display: flex;
+	color: #0065FC ;	
+}
+.navbartop {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+	text-align: center;
+}
+.heberge {
+	grid-column-start: 3;
+	color: #0065FC;
+}
+.login{
+	color: #0065FC;
+}
