@@ -11,7 +11,7 @@ header {
 	color: #0065FC ;	
 }
 .navbartop {
-    margin-top: 20px;
+    align-items: center;
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
 	text-align: center;
@@ -24,7 +24,6 @@ header {
 	color: #0065FC;
 }
 main {
-    
     width: 98%;
     max-width: 1440px;
     margin: auto;
@@ -32,6 +31,8 @@ main {
 .research-box{
     margin-top: 1rem;
 	display: inline-flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 1rem;
 }
 .icon-location{
 	background-color: #F2F2F2;
@@ -45,23 +46,33 @@ main {
     text-align: center;
 	background-color: #0065FC;
 	color: #F2F2F2;	
+    border:none;
 }
 .filter{
 	display: flex;
 	align-items: center;
     margin-top: 2rem;
+    gap: 2em;
     
 }
 .mediafilter{
-	margin-left: 60px;
+	
 	border: solid #d9d9d9 1px;
 	border-radius: 2rem;
-	padding: 1rem;
-    
+    padding-right: 1em;   
 }
 
-.mediafilter .fas {
-    
+ .mediafilter .fas {
+    background:  #DEEBFF;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+    margin-left: -1px;
+    color: #0065FC;
     
 }
 .info {
@@ -80,6 +91,5 @@ main {
     justify-content: center;
     margin-right: 1.2rem;
     
-    
-
 }
+
