@@ -7,6 +7,7 @@ body {
     
     
 }
+
 /*Header Navbar*/
 header {
     width: 98%;
@@ -248,9 +249,20 @@ i  {
 i.no-star {
     color: #ccc;
 }
+/*Article activites*/
+.activity{
+    width: 98%;
+    max-width: 1440px;
+    margin: auto;
 
+}
+.activity1 img{
+    width: 200px;
+    height: 200px;
+}
 
-@media (min-width: 768px) and (max-width: 1024px){
+/*Media Tablette*/
+@media (min-width: 700px) and (max-width: 1024px){
     .navbartop {
         gap: 3em;
    }
@@ -273,9 +285,7 @@ i.no-star {
     .populaires .card{
         max-width: 720px;
     }
-    .fa-chart-line::before{
-        
-    }
+    
     .hebergements {
         display: block;
     }
@@ -288,5 +298,66 @@ i.no-star {
     .hebergements .card{
         margin-right: 10px;
         border: lightgrey solid 0.5px;
+    }
+}
+/*Media téléphone*/
+@media (min-width: 300px) and (max-width: 700px){
+    .navbartop{
+        grid-template-columns: 5fr 5fr;
+    }
+
+    .logo{
+        order: 1;
+
+    }
+    .heberge{
+        order: 3;
+        grid-column-start: 1;
+
+    }
+    .activity{
+        order: 3;
+
+    }
+    .login{
+        order: 2;
+        margin-left: 100px;
+    }
+    div.heberge:hover, div.activity:hover{
+	color: #0065FC;
+	border-bottom: 3px solid #0065FC;
+	border-top: none;
+	}
+    .filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1;
+    }
+    .mediafilter{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .container{
+        flex-wrap: wrap-reverse;
+    }
+
+    .populaires .card{
+        margin-right: 30px;
+    }
+    .hebergements {
+        display: block;
+    }
+    .hebergements img {
+        
+        width: 98%;
+        max-height:150px;
+        
+        }
+         
+    .hebergements .card{
+        margin-right: 30px;
+        border: lightgrey solid 0.5px;
+        
     }
 }
