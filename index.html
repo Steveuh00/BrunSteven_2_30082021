@@ -4,6 +4,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link href="style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/fdffa83c13.js" crossorigin="anonymous"></script>
@@ -15,9 +16,15 @@
      <header class="header">
         <nav class="navbartop">
            <div class="logo">  <img src="logo/Reservia.svg"> </div>
-           <div class="heberge">Hébergement</div>
-           <div class="activity">Activite</div>
-           <div class="login">S'inscrire</div>
+           <div class="heberge">
+            <a href="#Heberge" >Hébergement</a>
+           </div>
+           <div class="activity">
+            <a href="#activity" >Activités</a>
+           </div>
+           <div class="login">
+            <a href="#">S'inscrire</a>
+           </div>
          </nav>
     </header>
     <!---------Header--------->
@@ -30,10 +37,10 @@
             <i class="fas fa-map-marker-alt"></i>
             </div>
             <input type="text" placeholder="Marseille, France" class="research-bar">
-            <button class="button-research" id="button-research">Rechercher</button>
-                
-                 
-            </button>
+            <button class="button-research" id="button-research">Rechercher </button>
+            <button class="research-mobile fas fa-search"> </button>
+            
+
         </div>
         <div class="filter">
           <h2>Filtres</h2>
@@ -52,7 +59,7 @@
 
             <h2>Hébergements à Marseille</h2>
 
-            <div class="hebergements">
+            <div class="hebergements" id="Heberge">
               <div class="card">
                     <a href="#">
                         <img src="hebergements//3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La cannebière à Marseille">
@@ -200,50 +207,81 @@
           </div>
        </aside>
      </div>
-    </article>  
-         
-      <!---------article--------->
-      <!---------section--------->
-
-    <section class="activity1" id="activity">
+     <section class="activity-container" id="activity">
         <h2>Activités à Marseille</h2>
         <a id="un" href="#">
-            <div class="activityWrapimg">
+            <div class="activityCard">
                 <img src="activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="reno-laithienne">
             </div>
             <h3>Vieux Port</h3>
         </a>
         <a id="deux" href="#">
-            <div class="activityWrapimg">
+            <div class="activityCard">
                 <img src="activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="paul-hermann">
             </div>
             <h3>Fort de Pomègues</h3>
         </a>
         <a id="trois" href="#">
-            <div class="activityWrapimg">
+            <div class="activityCard">
                 <img src="activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="kilyan-sockalingum">
             </div>
             <h3>Parc National des Calanques</h3>
         </a>
         <a id="quatre" href="#">
-            <div class="activityWrapimg">
+            <div class="activityCard">
                 <img src="activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="florian-wehde">
             </div>
             <h3>Notre-Dame-de-la-Garde</h3>
         </a>
         <a id="cinq" href="#">
-            <div class="activityWrapimg">
+            <div class="activityCard">
                 <img src="activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="kevin-hikari">
             </div>
             <h3>Île du Frioul</h3>
         </a>
         <a id="six" href="#">
-            <div class="activityWrapimg">
+            <div class="activityCard">
                 <img src="activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="lena-paulin">
             </div>
             <h3>Parc Longchamp</h3>
         </a>
     </section>
+         
+      <!---------article--------->
+      <!---------section--------->
+      
+</article> 
+    <footer class="container-footer">
+    <div class="Size-footer">
+        <div class="Apropos">
+            <h4>A propos</h4>
+            <ul>
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de ventes</li>
+                <li>Données et confidentialités</li>
+            </ul>
+        </div>
+        <div class="Nos-hebergement">
+            <h4>Nos hébergement</h4>
+            <ul>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hotel</li>
+            </ul>
+        </div>
+        <div class="Assistance">
+            <h4>Assistance</h4>
+            <ul>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
+    </div>
+        
+    </footer>
+   
+        
+      
+    
     <!---------section--------->
 
 
