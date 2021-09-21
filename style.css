@@ -90,6 +90,10 @@ main {
 	color: #F2F2F2;	
     
 }
+::placeholder {
+    color: black;
+    font-weight: bold;
+  }
 .button-research span{
     display: block;
 }
@@ -311,6 +315,9 @@ i.no-star {
         flex-direction: column;
         
     }
+    .activity-container h3{
+        color: black;
+    }
 
     .activity-container h3 {
         margin: 1.2rem 1.5rem;
@@ -412,7 +419,9 @@ i.no-star {
         display: flex;
         flex-wrap: wrap;
         gap: 2;
+        
     }
+     
 
     .mediafilter{
         display: flex;
@@ -480,6 +489,11 @@ i.no-star {
 	border-bottom: 3px solid #0065FC;
 	border-top: none;
 	}
+
+    h1{
+        font-size: 24px;
+        margin-top: 10px;
+    }
     
     .container-box{
         display: flex;
@@ -509,7 +523,11 @@ i.no-star {
     .filter {
         display: flex;
         flex-wrap: wrap;
-        gap: 1;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .filter h2{
+        width: 100%;
     }
     .mediafilter{
         display: flex;
