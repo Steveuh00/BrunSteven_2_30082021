@@ -10,8 +10,9 @@ body {
 /*Header Navbar*/
 header {
     
-    max-width: 1440px;
-    margin: auto;
+    
+    margin-right: 3em;
+    margin-left: 3em;
 }
 .logo {
 	display: flex;
@@ -59,8 +60,9 @@ header {
 /*Main+ recherche+ Filtre*/
 main {
     
-    max-width: 1440px;
-    margin: auto;
+    
+    margin-right: 3em;
+    margin-left: 3em;
 }
 .research-box{
     margin-top: 1rem;
@@ -149,9 +151,11 @@ main {
 /*Article hebergement*/
 article{
     
-    max-width: 1440px;
-    margin: auto;
+    
+    
     padding-bottom: 20px;
+    margin-right: 3em;
+    margin-left: 3em;
 }
 
 .container {
@@ -164,7 +168,6 @@ h3{
 }
 
 #hebergements {
-    max-width: 840px;
     border-radius: 10px;
     background: #f2f2f2;
     flex: 1;
