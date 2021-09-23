@@ -494,6 +494,9 @@ i.no-star {
         grid-column-start: 1;
 
     }
+    #populaires{
+        width: 100%;
+    }
     .activity{
         order: 3;
 
